@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="it">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Lezione 11 Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="Mohole">
+        <meta name="description" content="Il sito ufficiale di Mohole con sede a Milano">
+        <meta name="keywords" content="mohole, scuola, milano, corsi di formazione">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto&display=swap" rel="stylesheet"> 
+        <link href="favicon.png" type="image/png" rel="icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="vendor/fancybox-3.5.7/jquery.fancybox.min.css">
+        <script type="text/javascript" src="vendor/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="vendor/fancybox-3.5.7/jquery.fancybox.min.js"></script>
+        <script type="text/javascript" src="assets/js/init.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>
+               <a href="index.html"><img src="assets/immagini/logomohole.png" width="230" height="54" alt="logo Mohole"></a>
+            </h1>
+            <nav>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="seminari.html">Seminari</a></li>
+                   <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <aside class="hero hero--seminari">
+            <picture>
+                <source media="(max-width: 320px)" srcset="assets/immagini/seminari-320px.jpg">
+                <source media="(max-width: 320px)" srcset="assets/immagini/seminari-320px.jpg">
+                <source media="(max-width: 768px)" srcset="assets/immagini/seminari-768px.jpg">
+                <img src="assets/immagini/seminari-768px.jpg">
+            </picture>
+        </aside>
+
+        <main>
+            
+            <div class="grid grid--content">
+
+                <div class="grid__column grid__column--33 seminario-container">
+                    <div class="flip-card seminario">
+                        <div class="flip-card__face flip-card__face--front"> 
+                            <a href="assets/immagini/paolo-verzone.jpg" data-fancybox="images">
+                                <img src="assets/immagini/paolo-verzone.jpg" alt="Paolo Verzone" class="seminario__immagine">
+                            </a>
+                            <div class="seminario__intro">
+                                <ul class="seminario__tags">
+                                    <li class="seminario__tag seminario__tag--fotografia">Fotografia</li>
+                                </ul>  
+                                <h2 class="seminario__titolo">Paolo Verzone</h2>
+                            </div>
+                        </div><!-- front -->
+                        <div class="flip-card__face flip-card__face--back">
+                            <article class="seminario__contenuto">
+                                <ul class="seminario__tags">
+                                    <li class="seminario__tag seminario__tag--fotografia">Fotografia</li>
+                                </ul>
+                                <h2 class="seminario__titolo">Paolo Verzone</h2>
+                                <p class="seminario__abstract">Fidatevi di voi, fidatevi del vostro istinto, fidatevi e sbagliate, piuttosto che cercare di imitare qualcosa e seguire strade già percorse. Sbagliate da soli.</p>
+                            </article>
+                        </div><!-- back -->
+                    </div><!-- card -->  
+                </div><!-- grid__column -->
+
+                <div class="grid__column grid__column--33 seminario-container">
+                    <div class="flip-card seminario">
+                        <div class="flip-card__face flip-card__face--front"> 
+                            <a href="assets/immagini/laura-carbonara.jpg" data-fancybox="images">
+                                <img src="assets/immagini/laura-carbonara.jpg" alt="Laura Carbonara" class="seminario__immagine">
+                            </a>
+                            <div class="seminario__intro">
+                                <ul class="seminario__tags">
+                                    <li class="seminario__tag seminario__tag--graphic-design">Graphic Design</li>
+                                </ul>  
+                                <h2 class="seminario__titolo">Laura Carbonara</h2>
+                            </div>
+                        </div><!-- front -->
+                        <div class="flip-card__face flip-card__face--back">
+                            <article class="seminario__contenuto">
+                                <ul class="seminario__tags">
+                                    <li class="seminario__tag seminario__tag--graphic-design">Graphic Design</li>
+                                </ul>
+                                <h2 class="seminario__titolo">Laura Carbonara</h2>
+                                <p class="seminario__abstract">Dal libro all’immagine, dall’immagine al libro: la scelta iconografica delle copertine è il titolo del seminario che Laura Carbonara, ricercatrice iconografica per Mondadori, ha tenuto per i nostri studenti dei corsi di Graphic Design.</p>
+                            </article>
+                        </div><!-- back -->
+                    </div><!-- card -->  
+                </div><!-- grid__column -->
+
+                <div class="grid__column grid__column--33 seminario-container">
+                    <div class="flip-card seminario">
+                        <div class="flip-card__face flip-card__face--front"> 
+                            <a href="assets/immagini/angelo-cigognini.jpg" data-fancybox="images">
+                                <img src="assets/immagini/angelo-cigognini.jpg" alt="Angelo Cigognini" class="seminario__immagine">
+                            </a>
+                            <div class="seminario__intro">
+                                <ul class="seminario__tags">
+                                    <li class="seminario__tag seminario__tag--graphic-design">Graphic Design</li>
+                                </ul>  
+                                <h2 class="seminario__titolo">Angelo Cigognini</h2>
+                            </div>
+                        </div><!-- front -->
+                        <div class="flip-card__face flip-card__face--back">
+                            <article class="seminario__contenuto">
+                                <ul class="seminario__tags">
+                                    <li class="seminario__tag seminario__tag--graphic-design">Graphic Design</li>
+                                </ul>
+                                <h2 class="seminario__titolo">Angelo Cigognini</h2>
+                                <p class="seminario__abstract">La bella immagine: l’epoca d’oro del libro illustrato è il titolo del seminario tenuto da Angelo Cigognini per i nostri studenti dei corsi di Graphic Design.</p>
+                            </article>
+                        </div><!-- back -->
+                    </div><!-- card -->  
+                </div><!-- grid__column -->
+        
+            </div><!-- grid -->
+        </main>
+        <footer class="site-footer">
+            <div class="grid">
+                <div class="grid__column grid__column--50">
+                    <img class="site-footer__logo" src="assets/immagini/logomohole.png" alt="logo Mohole">
+                    <ul class="contacts">
+                        <li class="contacts__item"><i class="fas fa-phone"></i> <a href="tel:00390236513670">02 3651 3670</a></li>
+                        <li class="contacts__item"><i class="fas fa-envelope"></i> <a href="mailto:scuola@mohole.it">scuola@mohole.it</a></li>
+                        <li class="contacts__item"><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps?ll=45.484147,9.243786&z=14&t=m&hl=it-IT&gl=IT&mapclient=embed&cid=15642271138361503944" rel="noopener" target="_blank" title="Google Maps">Milano, Via Ventura n. 5</a></li>
+                    </ul>
+                </div>
+                <div class="grid__column grid__column--50">
+                    <ul class="social">
+                        <li><a href="#" rel="noopener" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" rel="noopener" target="_blank"></a><i class="fab fa-vimeo-v"></i></li></a></li>
+                    </ul>
+                    <ul class="copyright">
+                        <li><a href="#">Cookie policy</a></li><li><a href="#">Privacy policy</a></li>
+                    </ul>
+                    <p>Partita IVA 05649200960</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+     
+</html>
